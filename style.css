@@ -1,0 +1,136 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2em;
+  background-color: white;
+  opacity: 0.9;
+  border-bottom: 1px solid rgba(224, 224, 224, 0.329);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width:100%;
+  margin:0 0;
+  
+  
+}
+
+header img {
+  width: 250px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  float: right;
+  margin:initial;
+}
+
+header ul li {
+  margin-left: 20px;
+}
+
+header ul li > *:hover {
+  color: #00b39b !important;
+}
+a {
+  text-decoration: none !important;
+  color: gray !important;
+}
+
+.active {
+  color: #00b39b !important;
+}
+
+.land {
+  text-align: center;
+  margin-top: 70px;
+}
+.land p {
+  color: #00b39b;
+  font-size: 1.9em;
+  margin-top: 40px;
+  font-weight: lighter;
+}
+
+.para {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.para > * {
+  width: 48%;
+}
+
+.cardss {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.cardd {
+  background-color: #00b39b;
+  width: 30%;
+  color: white;
+  padding: 1.6em;
+  border-radius: 15px;
+}
+.cardd p {
+  width: 70%;
+  font-size: 1.4em;
+}
+.cardd p:nth-child(3) {
+  font-weight: lighter;
+}
+.cardd select {
+  background-color: transparent;
+  color: white;
+  width: 40%;
+  font-size: 1.3em;
+  margin-top: 100px;
+}
+
+.blue {
+  background-color: #3d83df;
+}
+
+.black {
+  background-color: #1b2734;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.brands .brand {
+  width: 70%;
+}
+
+.brands .brand > * {
+  width: 200px;
+  fill: rgb(202, 202, 202);
+  margin: 8px 10px;
+}
+
+.brands .brand > *:hover {
+  fill: #00b39b;
+  cursor: pointer;
+}
+.brands p {
+  font-size: 1.8em;
+  color: #00b39b;
+  width: 200px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main > *:hover {
+  box-shadow: 1px 2px 48px 13px rgba(0, 0, 0, 0.1);
+}
